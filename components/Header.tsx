@@ -31,7 +31,7 @@ const Header: React.FC = () => {
           <a href="#home" className="flex items-center gap-3 group">
             {/* logo image from public/images */}
             <img
-              src="/images/MGV-LOGO.png"
+              src="/images/MGV-Logo.png"
               alt="MGV Engineering Works logo"
               onLoad={() => setLogoLoaded(true)}
               onError={(e) => {
